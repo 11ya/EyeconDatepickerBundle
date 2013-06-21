@@ -1,0 +1,30 @@
+{
+    "name":        "fanforfun/eyecon-datepicker-bundle",
+    "type":        "symfony-bundle",
+    "description": "Eyecon Datepicker (any version) for Symfony2",
+    "keywords":    ["datepicker", "javascript", "date", "calendar"],
+    "homepage":    "https://github.com/statichippo/eyecon-datepicker",
+    "authors":     [
+        {
+            "name":     "Stefan Petre",
+            "homepage": "http://www.eyecon.ro"
+        },
+        {
+            "name":     "Sergey Bondar",
+            "email":    "msnre@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "statichippo/eyecon-datepicker": "*"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Fanforfun\\EyeconDatepickerBundle": ""
+        }
+    },
+    "target-dir":  "Fanforfun/EyeconDatepickerBundle"
+}
